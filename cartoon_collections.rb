@@ -37,7 +37,7 @@ def find_the_cheese(examples)
  
  examples.detect do |cheese|
    cheese_types.include?(cheese)
-    return
+   
   end
 end
  
