@@ -35,6 +35,15 @@ def find_the_cheese(examples)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
  
+ examples.detect do |cheese|
+   cheese_types.include?(cheese)
+    return
+  end
+end
+ 
+ 
+ 
+ 
  #if examples.include?(cheese_types)
 #    found_cheese = []
 #
@@ -51,7 +60,7 @@ def find_the_cheese(examples)
 # end
 #
  # end
-#
- end
- 
-end
+##
+# end
+# 
+#end
