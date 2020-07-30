@@ -35,23 +35,23 @@ def find_the_cheese(examples)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
  
- if examples.include?(cheese_types)
-    found_cheese = []
-
- examples.each do |i|
-
-   
-    cheese_types.each do |j|
-   
-      if j == i 
-     return found_cheese.push(i)
-  
-   end
-
- end
-
-  end
-
+ #if examples.include?(cheese_types)
+#    found_cheese = []
+#
+# examples.each do |i|
+#
+#   
+#    cheese_types.each do |j|
+#   
+ #     if j == i 
+ #    return found_cheese.push(i)
+#  
+#   end
+#
+# end
+#
+ # end
+#
  end
  
 end
